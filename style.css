@@ -1,0 +1,109 @@
+*{
+padding:0px;
+margin:0px;
+}
+#spandiv{
+  text-align:center;
+  padding:20px 80px 20px 80px;
+}
+.mainnreview{
+  background:#e0dfda;
+  margin:55px 20px 0px 20px;
+}
+#reviewproduct{
+  display:flex;
+}
+header{
+background:#333;
+color:#fff;
+font-style: oblique;
+text-align:center;
+font-family:Fantasy;
+padding:1rem;
+}
+.food{
+ width:100%;
+ height:10%;
+ text-align:center;
+ color:#fff;
+ font-family:Fantasy;
+ background:#333;
+ position:fixed;
+}
+.food1{
+display:flex;
+flex-direction:row;
+height:25%;
+}
+.food2{
+margin:3%;
+width:25%;
+box-shadow:0px 0px 15px currentcolor;
+}
+img{
+ width: 100%;
+ height: 100%;
+ }
+h2,h3{
+text-align:center;
+margin-top:2px;
+font-style: oblique;
+}
+.icon-design{
+ display:flex;
+ justify-content:center;
+ padding:10px;
+}
+li{
+ list-style:none;
+  margin: 3px;
+  padding: 3px;
+}
+.myprofile{
+  margin:40px 20px 40px 20px;
+  background:#f7e4d0;
+}
+#hcolor{
+  color:red;
+  font-style: oblique;
+  text-align:left;
+  padding:5px;
+}
+#profile1{
+  margin-bottom:20px;
+  margin-top:30px;
+  margin-left:40px;
+  width:100%
+}
+.dividediv{
+  display:flex;
+  padding:10px;
+}
+#divmyself{
+  margin-top:40px;
+  margin-left:20px;
+}
+#myparagraf{
+   padding:10px;
+   height:80px;
+   overflow: auto;
+   margin-bottom:20px;
+   margin-right:10px;
+}
+p{
+  color: navy;
+  font-style: oblique;
+}
+.pp{
+  text-align:center;
+  margin:10px;
+  padding:25px;
+  font-size: 15px;
+}
+#hh{
+  padding-top:30px;
+}
+footer{
+ background:#333;
+ padding-top:10px;
+}
