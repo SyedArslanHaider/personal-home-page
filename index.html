@@ -1,14 +1,14 @@
 <html>
 <head>
 <title>My Personal Details</title>
-<link rel="stylesheet" href = "C:/Users/PMLS/Desktop/styles.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
 <h1>My Favourite Foods</h1>
 </header>
 
-  <div>
+  <div id="mainimg">
     <img src="https://soliloquywp.com/wp-content/uploads/2018/10/nb_dfs_cover.jpg" alt="foodslider">
     </div>
 <!--   text div     -->
@@ -67,7 +67,15 @@
       </div>
    </div>
   </div>
- 
+  
+ <div id="comment">
+  <h2 id="conmt">Comments</h2>
+   <ul id="commentList"></ul>
+  <textarea id="commentInput" placeholder="Enter your comment here" rows="5" cols="50"></textarea><br>
+ <button id="submitcomt">Submit</button>
+  </div>
+   
+   
 <footer>
 <ui class="icon-design">
 <li><a href="https://www.facebook.com"><img src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19759.png" style=width:20px;height:20px></a></li>
@@ -76,5 +84,7 @@
 <li><a href="https://www.twitter.com"><img src="https://th.bing.com/th/id/R.8eb68c7065e5057c9314f335d1bcb4a6?rik=jN4%2f3c2j9%2fNquA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2ftwitter-png-twitter-icon-1600.png&ehk=cfVuY5vaxmKssnSiLi2qsApgVuOQ2a3R0fEel7T0mJk%3d&risl=&pid=ImgRaw&r=0" style=width:20px;height:20px></a></li>
 </ui>
 </footer>
+
+<script src="script.js"></script>
 </body>
 </html>
