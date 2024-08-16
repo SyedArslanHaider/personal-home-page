@@ -210,9 +210,16 @@ h2{
   text-align: center;
 }
 
-#mainimg{
-  width:100%;
-  height:auto;
+
+.main-image-container {
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+.main-image {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
 }
 #spandiv{
   text-align:center;
